@@ -1,6 +1,7 @@
 # ablmccapiol
 ABLMCC API Online
-This API is online for scraping ABLMCC website information
+This API is online for scraping ABLMCC website information.
+It will return the json form of the information
 The functions are the following:
 
 ## Website
@@ -13,14 +14,14 @@ https://ablmccapiol.herokuapp.com/
 ```
 https://ablmccapiol.herokuapp.com/news
 ```
-Read the latest news from ABLMCC
+Return the latest news from ABLMCC
 
 ## Notices
 ### Usage
 ```
 https://ablmccapiol.herokuapp.com/notices
 ```
-Read the most recent year notices from ABLMCC
+Return the most recent year notices from ABLMCC
 
 #### Query
 year=(2012-2018)
@@ -37,7 +38,7 @@ This queries the notices of the year 2017-2018
 ```
 https://ablmccapiol.herokuapp.com/homework
 ```
-Read homeworks that are upload to ABLMCC Website
+Return homeworks that are upload to ABLMCC Website
 (By default it reads 1A's homework if no query is made)
 
 #### Query
