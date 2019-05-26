@@ -1,8 +1,8 @@
 # ablmccapiol
 ABLMCC API Online
-This API is online for scraping ABLMCC website information.
-It will return the json form of the information
-The functions are the following:
+This API is online for scraping ABLMCC website information.\n
+It will return the json form of the information.\n
+The functions are the following:\n
 
 ## Website
 ```
