@@ -7,9 +7,10 @@
     "node": "10.15.3"
   },
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon --exec babel-node src/index.js",
-    "build": "babel src --out-dir dist",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "server": "nodemon src/index.js --exec babel-node", //for spinning up dev server which updates using Nodemon
+    "heroku-postbuild": "npm install", //called automatically when application is build on Heroku server
   },
   "repository": {
     "type": "git",
