@@ -27,7 +27,7 @@
     "express": "^4.17.1",
     "iconv-lite": "^0.4.24",
     "jsdom": "^15.1.0",
-    "node-fetch": "^2.6.0"
+    "node-fetch": "^2.6.1"
   },
   "devDependencies": {
     "@babel/core": "^7.4.5",
