@@ -24,7 +24,7 @@
   "dependencies": {
     "dom-parser": "^0.1.6",
     "encoding": "^0.1.12",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "iconv-lite": "^0.4.24",
     "jsdom": "^15.1.0",
     "node-fetch": "^2.6.0"
